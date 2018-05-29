@@ -9,5 +9,16 @@
 </head>
 <body>
     <!-- DEMO HERE -->
+    <div id="container">
+        Insert single tone mark after writing a character: 
+        <button value="t1" class="t1 btn" onclick="insertAtCursor('\u0304')">&nbsp;</button>
+        <button value="t2" class="t2 btn" onclick="insertAtCursor('\u0301')">&nbsp;</button>
+        <button value="t3" class="t3 btn" onclick="insertAtCursor('\u030C')">&nbsp;</button>
+        <button value="t4" class="t4 btn" onclick="insertAtCursor('\u0300')">&nbsp;</button>
+        <br>
+        <textarea id="text"></textarea> <!-- TODO: ADD DELETE BUTTON, ADD AUTO FUNCTIONALITY -->
+    </div>
+    <!-- INCLUDE JS FILE AT END OF FILE -->
+    <script src="assets/js/auto-pinyin.js"></script>
 </body>
 </html>
